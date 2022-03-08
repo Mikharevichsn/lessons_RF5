@@ -17,10 +17,5 @@ parent.addEventListener('click', (e) => {
 });
 
 btn.addEventListener('click', (e) => {
-  const children = parent.children;
-  const arrFromChildren = [...children];
-
-  arrFromChildren.forEach((child) => {
-    child.classList.toggle('active');
-  });
+  parent.classList.toggle('reversed');
 });

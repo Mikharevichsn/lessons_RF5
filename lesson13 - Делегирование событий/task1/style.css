@@ -4,6 +4,10 @@
   position: relative;
 }
 
+p {
+  background-color: bisque;
+}
+
 .card.active {
   background-color: lawngreen;
 }

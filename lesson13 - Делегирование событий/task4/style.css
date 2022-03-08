@@ -1,7 +1,11 @@
-.tree__sub-tree {
+.root ul {
   display: none;
 }
 
-.opened {
+li ul {
+  display: none;
+}
+
+li.uncollapsed > ul {
   display: block;
 }
